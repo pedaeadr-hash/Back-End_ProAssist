@@ -1,0 +1,6 @@
+@BGProAssist_HostAddress = http://localhost:5072
+
+GET {{BGProAssist_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
