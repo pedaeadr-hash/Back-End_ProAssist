@@ -156,3 +156,5 @@ C:\Users\pedae\Desktop\BGProAssist\obj\Debug\net10.0\refint\BGProAssist.dll
 C:\Users\pedae\Desktop\BGProAssist\obj\Debug\net10.0\BGProAssist.pdb
 C:\Users\pedae\Desktop\BGProAssist\obj\Debug\net10.0\BGProAssist.genruntimeconfig.cache
 C:\Users\pedae\Desktop\BGProAssist\obj\Debug\net10.0\ref\BGProAssist.dll
+C:\Users\pedae\Desktop\BGProAssist\bin\Debug\net10.0\BCrypt-Net-Next.dll
+C:\Users\pedae\Desktop\BGProAssist\obj\Debug\net10.0\BGProAssist.sourcelink.json

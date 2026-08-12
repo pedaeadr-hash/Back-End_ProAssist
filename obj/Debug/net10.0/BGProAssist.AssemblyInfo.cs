@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BGProAssist")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9eac4afa1e462a917cb161be3c7c4e4ba7b9fe1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba094b84ad0ba3028c3ffe9aadfaad399f6550f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BGProAssist")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BGProAssist")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
