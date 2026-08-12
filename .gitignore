@@ -1,0 +1,7 @@
+# Pastas de build do .NET
+bin/
+obj/
+
+# Arquivos de configurações locais / de usuário
+.vs/
+appsettings.Development.json
