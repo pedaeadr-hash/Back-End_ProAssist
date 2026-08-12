@@ -35,6 +35,6 @@ namespace ControllerUser
             await DB.Users.AddAsync(us);
             await DB.SaveChangesAsync();
             return Ok();
-        }
+        }   
     }
 }

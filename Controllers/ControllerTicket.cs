@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using BankDb;
 using MoldesTicket;
+using Microsoft.EntityFrameworkCore;
 namespace  ControllerTicket
 {
     [ApiController]
@@ -25,6 +26,19 @@ namespace  ControllerTicket
             await DB.Tickets.AddAsync(Tck);
             await DB.SaveChangesAsync();
             return Ok();
+        }
+        [HttpGet("ConsultTicket")]
+        public async Task<IActionResult> ConsultTicketAll()
+        {
+            var ListAll = await DB.Tickets.ToListAsync();
+            return Ok(ListAll);
+        }
+        [HttpGet("ConsultTicketwithNameApplicant")]
+        public async Task<IActionResult> ConsultTicketwithNameApplican([FromQuery]string NameFind = "curiel")
+        {
+            var Wanted = await DB.Tickets.Where(x=>x.NameApplicant.Contains(NameFind)).ToListAsync();
+            if (Wanted==null){return BadRequest("Not Found");}
+            return Ok(Wanted);
         }
     }
 }
