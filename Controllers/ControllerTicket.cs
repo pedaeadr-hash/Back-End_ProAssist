@@ -21,8 +21,8 @@ namespace  ControllerTicket
             DateTime DateandTime = Tck.DateandTime;
             if (Tck.Department == null) {} else {Tck.Department=Tck.Department.Trim();}
             if (Tck.Status is not (0 or 1 or 2) ) {return BadRequest();}
-            if (Tck.Comment == null) {} else {Tck.Department=Tck.Comment.Trim();}
-            if (Tck.Responsible == null) {} else {Tck.Department=Tck.Responsible.Trim();}
+            if (Tck.Comment == null) {} else {Tck.Comment=Tck.Comment.Trim();}
+            if (Tck.Responsible == null) {} else {Tck.Responsible=Tck.Responsible.Trim();}
             await DB.Tickets.AddAsync(Tck);
             await DB.SaveChangesAsync();
             return Ok();

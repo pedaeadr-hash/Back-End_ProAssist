@@ -14,6 +14,8 @@ namespace ControllerUser
         {
             DB = Bankdb;
         }
+
+
         [HttpPost("Registration")]
         public async Task<IActionResult> Registration([FromBody] UserDto UD)
         {
